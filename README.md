@@ -1,16 +1,30 @@
-# React + Vite
+# DSA Roadmap Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A lightweight React web application designed to track Data Structures and Algorithms (DSA) learning progress using a visual, gamified timeline.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* **Visual Roadmap:** A step-by-step progress path across 30 curriculum modules.
+* **Progress Analytics:** Real-time problem tracking ($9 / 240$ total solved) with individual module percentage indicators.
+* **Module Modals:** Clickable milestone nodes that reveal reading resource links and interactive problem checklists.
+* **Dark Mode:** A quick theme toggle for comfortable viewing.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## Getting Started
+
+```bash
+# Clone and open project
+git clone https://github.com/your-username/dsa-roadmap.git
+cd dsa-roadmap
+
+# Install and run
+npm install
+npm run dev
+
+```

@@ -13,10 +13,6 @@ A lightweight React web application designed to track Data Structures and Algori
 
 ---
 
-## Tech Stack
-
-* **Frontend:** React.js
-* **Styling:** Custom Vanilla CSS
 
 ---
 
@@ -29,6 +25,6 @@ cd dsa-roadmap
 
 # Install and run
 npm install
-npm start
+npm run dev
 
 ```

@@ -5,8 +5,14 @@
 const PARTS_DATA = [
   {
     id: 1,
-    title: "Python Basics Conditionals, Loops and Functions",
-    pdfLink: "https://drive.google.com/file/d/1D7bUEWWM__KJ6M8XKKV8zn0Aod2YXoja/view",
+    title: "Python Basics",
+    pdfs: [
+      { title: "Conditionals, Loops and Functions", link: "https://drive.google.com/file/d/1D7bUEWWM__KJ6M8XKKV8zn0Aod2YXoja/view" },
+      { title: "Lists and Tuples", link: "https://drive.google.com/file/d/1iKJWLbNufc36P6meonpUZuOpcwT7GE_L/view" },
+      { title: "Sets and Dictionaries", link: "https://drive.google.com/file/d/1zyiie8t0azc2B2lhRVszSInNIspiq5Rl/view" },
+      { title: "Built-in Functions and Classes", link: "https://drive.google.com/file/d/1lC2rwLl3IynmhzCkOsj8hlXaq2qr6_j8/view" },
+      { title: "Best Coding Practices and Code Review", link: "https://drive.google.com/file/d/1exFNzeq-NYgvZObz67ym4XT6rHsZ-ty4/view" },
+    ],
     questions: [
       { id: "p1_q1", name: "Arithmetic Operators", url: "https://www.hackerrank.com/challenges/python-arithmetic-operators/problem?isFullScreen=true" },
       { id: "p1_q2", name: "Division", url: "https://www.hackerrank.com/challenges/python-division/problem?isFullScreen=true" },
@@ -21,24 +27,10 @@ const PARTS_DATA = [
       { id: "p1_q11", name: "Mod Power", url: "https://www.hackerrank.com/challenges/python-power-mod-power/problem?isFullScreen=true" },
       { id: "p1_q12", name: "Longest Common Prefix", url: "https://leetcode.com/problems/longest-common-prefix/" },
       { id: "p1_q13", name: "More Exercise", url: "https://pynative.com/python-if-else-and-for-loop-quiz/" },
-    ],
-  },
-  {
-    id: 2,
-    title: "Python Basics Lists and Tuples",
-    pdfLink: "https://drive.google.com/file/d/1iKJWLbNufc36P6meonpUZuOpcwT7GE_L/view",
-    questions: [
       { id: "p2_q1", name: "List Comprehension", url: "https://www.hackerrank.com/challenges/list-comprehensions/problem?isFullScreen=true" },
       { id: "p2_q2", name: "Runner-up Score", url: "https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem?isFullScreen=true" },
       { id: "p2_q3", name: "Nested Lists", url: "https://www.hackerrank.com/challenges/nested-list/problem?isFullScreen=true" },
       { id: "p2_q4", name: "Lists", url: "https://www.hackerrank.com/challenges/python-lists/problem?isFullScreen=true" },
-    ],
-  },
-  {
-    id: 3,
-    title: "Python Sets and Dictionaries",
-    pdfLink: "https://drive.google.com/file/d/1zyiie8t0azc2B2lhRVszSInNIspiq5Rl/view",
-    questions: [
       { id: "p3_q1", name: "Check if All Integers in a Range Are Covered", url: "https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/description/" },
       { id: "p3_q2", name: "Union of Two Arrays", url: "https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1" },
       { id: "p3_q3", name: "Check if Two Arrays Are Equal or Not", url: "https://practice.geeksforgeeks.org/problems/check-if-two-arrays-are-equal-or-not3847/1" },
@@ -46,13 +38,6 @@ const PARTS_DATA = [
       { id: "p3_q5", name: "Missing Number", url: "https://leetcode.com/problems/missing-number" },
       { id: "p3_q6", name: "Find Players With Zero or One Losses", url: "https://leetcode.com/problems/find-players-with-zero-or-one-losses" },
       { id: "p3_q7", name: "Day 8: Dictionaries and Maps", url: "https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem" },
-    ],
-  },
-  {
-    id: 4,
-    title: "Python Built-in Functions and Classes",
-    pdfLink: "https://drive.google.com/file/d/1lC2rwLl3IynmhzCkOsj8hlXaq2qr6_j8/view",
-    questions: [
       { id: "p4_q1", name: "First Unique Character in a String", url: "https://leetcode.com/problems/first-unique-character-in-a-string/description/" },
       { id: "p4_q2", name: "Top K Frequent Elements", url: "https://leetcode.com/problems/top-k-frequent-elements/description/" },
       { id: "p4_q3", name: "Minimum Number of Steps to Make Two Strings Anagram", url: "https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/description/" },
@@ -63,19 +48,13 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 5,
-    title: "Best Coding Practices and Code Review",
-    pdfLink: "https://drive.google.com/file/d/1exFNzeq-NYgvZObz67ym4XT6rHsZ-ty4/view",
-    questions: [],
-  },
-  {
-    id: 6,
+    id: 2,
     title: "Time and Space Complexity",
     pdfLink: "https://drive.google.com/file/d/1Ebs4O62X3Nj4_A5tOqzDaKnvdcehQo0w/view",
     questions: [],
   },
   {
-    id: 7,
+    id: 3,
     title: "Arrays and Matrices",
     pdfLink: "https://drive.google.com/file/d/1xMYFeRcmh11cfOYneL_vyrg1EqLqLE-i/view",
     questions: [
@@ -91,7 +70,7 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 8,
+    id: 4,
     title: "Sorting Part 1",
     pdfLink: "https://drive.google.com/file/d/173R3tXGcd03fUz0BfrlcYVR8N2tQ-i5P/view",
     questions: [
@@ -108,7 +87,7 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 9,
+    id: 5,
     title: "Two Pointers",
     pdfLink: "https://drive.google.com/file/d/1g-wStmKW91g0aILXjUGGm_BEMNvOvGUS/view",
     questions: [
@@ -124,7 +103,7 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 10,
+    id: 6,
     title: "Sliding Window",
     pdfLink: "https://drive.google.com/file/d/14acP7DxQ54dwcsLMogzbmYGDydd0IUuS/view",
     questions: [
@@ -141,7 +120,7 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 11,
+    id: 7,
     title: "Prefix Sum",
     pdfLink: "https://drive.google.com/file/d/1C2LWTdp4Ni8oD3WzP7bP-jNdOV7InBji/view",
     questions: [
@@ -155,13 +134,13 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 12,
+    id: 8,
     title: "Linked List I",
     pdfLink: "https://drive.google.com/file/d/1opS1LD3YL-z_bHOlo4z2UECziMZ9PTay/view",
     questions: [],
   },
   {
-    id: 13,
+    id: 9,
     title: "Linked List II",
     pdfLink: "https://drive.google.com/file/d/1k0GC6wfI1anE5-ca2f9_QR7SiqEeqjJ-/view",
     questions: [
@@ -176,7 +155,7 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 14,
+    id: 10,
     title: "Stacks, Queues and Monotonicity",
     pdfLink: "https://drive.google.com/file/d/1pVCyW_b-bFdff-put7mPnvSpzhwloYXw/view",
     questions: [
@@ -198,7 +177,7 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 15,
+    id: 11,
     title: "Greedy",
     pdfLink: "https://drive.google.com/file/d/12Y2nwVugh-sZ462n3eUSHvVE5k_lNtT3/view",
     questions: [
@@ -211,7 +190,7 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 16,
+    id: 12,
     title: "Recursion I",
     pdfLink: "https://drive.google.com/file/d/16WfLF0XLZYSiYEdAn4MgpAbkCEd31lGR/view",
     questions: [
@@ -226,13 +205,13 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 17,
+    id: 13,
     title: "Trees I",
     pdfLink: "https://drive.google.com/file/d/1RpwnxMfyw5KEFW4wS1cBanbTlnzAM312/view",
     questions: [],
   },
   {
-    id: 18,
+    id: 14,
     title: "Trees II",
     pdfLink: "https://drive.google.com/file/d/1wrChihW7AtqSGHfgXJ6vwAr2r8gA8WuT/view",
     questions: [
@@ -248,7 +227,7 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 19,
+    id: 15,
     title: "Recursion II",
     pdfLink: "https://drive.google.com/file/d/16wXd1IS8YrojCacPi3DYwdAucxabCDB6/view",
     questions: [
@@ -269,7 +248,7 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 20,
+    id: 16,
     title: "Binary Search",
     pdfLink: "https://drive.google.com/file/d/19Xc3VXwUtNLUgBiwb1f47UCpoPQAcn3O/view",
     questions: [
@@ -286,7 +265,7 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 21,
+    id: 17,
     title: "Sorting II",
     pdfLink: "https://drive.google.com/file/d/1e6Ay3p69zvARIzMC35FcsLB67J0-deeV/view",
     questions: [
@@ -298,7 +277,7 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 22,
+    id: 18,
     title: "Sorting II - Part II",
     pdfLink: "https://drive.google.com/file/d/1_JhIc4VMgAcVOSGQwkjEjo8-WriEpr9j/view",
     questions: [
@@ -312,7 +291,7 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 23,
+    id: 19,
     title: "Graph",
     pdfLink: "https://drive.google.com/file/d/1mVUWSWkdjuAZo4S0fAeZ6VY-fsOSQnn3/view",
     questions: [
@@ -326,7 +305,7 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 24,
+    id: 20,
     title: "DFS",
     pdfLink: "https://drive.google.com/file/d/1YNlzTqDELfrlfWoWjZ_7ke58ZQaYLvVS/view",
     questions: [
@@ -344,7 +323,7 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 25,
+    id: 21,
     title: "BFS",
     pdfLink: "https://drive.google.com/file/d/1hun7aOFzaOqP0P-4sYNwkiNmsawYP85W/view",
     questions: [
@@ -364,7 +343,7 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 26,
+    id: 22,
     title: "Topological Sort",
     pdfLink: "https://drive.google.com/file/d/1tdOFPkE2-LrmWFWqRFjS5FT2hDp1I3El/view",
     questions: [
@@ -382,7 +361,7 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 27,
+    id: 23,
     title: "Heap",
     pdfLink: "https://drive.google.com/file/d/1jWNdoZB1LBfkWFAIsZxAr9tigKocPd7j/view",
     questions: [
@@ -403,7 +382,7 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 28,
+    id: 24,
     title: "Union Find",
     pdfLink: "https://drive.google.com/file/d/1f84HBpqVVEfzcbLbB3KCYRLqqWd1Qo-n/view",
     questions: [
@@ -419,7 +398,7 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 29,
+    id: 25,
     title: "Top-Down DP",
     pdfLink: "https://drive.google.com/file/d/1bFy4OdUHf5xD6c5zsTLlGC234NqkrWxC/view",
     questions: [
@@ -434,7 +413,7 @@ const PARTS_DATA = [
     ],
   },
   {
-    id: 30,
+    id: 26,
     title: "Top-Down DP (Advanced)",
     pdfLink: "https://drive.google.com/file/d/1qJr3VrU6atOS6lvH4t6T9Y79_YMYjgWq/view",
     questions: [

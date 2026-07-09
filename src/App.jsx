@@ -116,6 +116,35 @@ function App() {
             <div className="header-title">DSA Roadmap</div>
             <div className="header-subtitle">A2SV Learning Journey</div>
           </div>
+          <div style={{ marginLeft: '16px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <label htmlFor="nav-dropdown" style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', fontWeight: 500 }}>Go To:</label>
+            <select
+              id="nav-dropdown"
+              onChange={(e) => {
+                const partId = parseInt(e.target.value, 10);
+                if (partId) {
+                  const part = PARTS_DATA.find(p => p.id === partId);
+                  if (part) setSelectedPart(part);
+                }
+                e.target.value = "";
+              }}
+              style={{
+                background: 'var(--bg-card)',
+                color: 'var(--text-primary)',
+                border: '1px solid var(--border)',
+                borderRadius: 'var(--radius-sm)',
+                padding: '4px 8px',
+                fontSize: '0.9rem',
+                outline: 'none',
+                cursor: 'pointer'
+              }}
+            >
+              <option value="">Select a part...</option>
+              {PARTS_DATA.map(p => (
+                <option key={p.id} value={p.id}>Part {p.id}: {p.title}</option>
+              ))}
+            </select>
+          </div>
           <button className="theme-toggle" onClick={toggleTheme}>
             {theme === 'dark' ? 'Light Mode' : 'Dark Mode'}
           </button>
@@ -123,7 +152,7 @@ function App() {
 
         <div className="header-stats">
           <div className="stat-chip">
-            <span>30 Parts</span>
+            <span>{PARTS_DATA.length} Parts</span>
           </div>
           <div className="stat-chip">
             <span>

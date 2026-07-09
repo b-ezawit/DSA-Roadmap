@@ -6,7 +6,7 @@ const PARTS_DATA = [
   {
     id: 1,
     title: "Python Basics Conditionals, Loops and Functions",
-    pdfLink: "https://drive.google.com/file/d/1D7bUEWWM__KJ6M8XKKV8zn0Aod2YXoja?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1D7bUEWWM__KJ6M8XKKV8zn0Aod2YXoja/view",
     questions: [
       { id: "p1_q1", name: "Arithmetic Operators", url: "https://www.hackerrank.com/challenges/python-arithmetic-operators/problem?isFullScreen=true" },
       { id: "p1_q2", name: "Division", url: "https://www.hackerrank.com/challenges/python-division/problem?isFullScreen=true" },
@@ -26,7 +26,7 @@ const PARTS_DATA = [
   {
     id: 2,
     title: "Python Basics Lists and Tuples",
-    pdfLink: "https://drive.google.com/file/d/1iKJWLbNufc36P6meonpUZuOpcwT7GE_L?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1iKJWLbNufc36P6meonpUZuOpcwT7GE_L/view",
     questions: [
       { id: "p2_q1", name: "List Comprehension", url: "https://www.hackerrank.com/challenges/list-comprehensions/problem?isFullScreen=true" },
       { id: "p2_q2", name: "Runner-up Score", url: "https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem?isFullScreen=true" },
@@ -37,7 +37,7 @@ const PARTS_DATA = [
   {
     id: 3,
     title: "Python Sets and Dictionaries",
-    pdfLink: "https://drive.google.com/file/d/1zyiie8t0azc2B2lhRVszSInNIspiq5Rl?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1zyiie8t0azc2B2lhRVszSInNIspiq5Rl/view",
     questions: [
       { id: "p3_q1", name: "Check if All Integers in a Range Are Covered", url: "https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/description/" },
       { id: "p3_q2", name: "Union of Two Arrays", url: "https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1" },
@@ -51,7 +51,7 @@ const PARTS_DATA = [
   {
     id: 4,
     title: "Python Built-in Functions and Classes",
-    pdfLink: "https://drive.google.com/file/d/1lC2rwLl3IynmhzCkOsj8hlXaq2qr6_j8?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1lC2rwLl3IynmhzCkOsj8hlXaq2qr6_j8/view",
     questions: [
       { id: "p4_q1", name: "First Unique Character in a String", url: "https://leetcode.com/problems/first-unique-character-in-a-string/description/" },
       { id: "p4_q2", name: "Top K Frequent Elements", url: "https://leetcode.com/problems/top-k-frequent-elements/description/" },
@@ -65,19 +65,19 @@ const PARTS_DATA = [
   {
     id: 5,
     title: "Best Coding Practices and Code Review",
-    pdfLink: "https://drive.google.com/file/d/1exFNzeq-NYgvZObz67ym4XT6rHsZ-ty4?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1exFNzeq-NYgvZObz67ym4XT6rHsZ-ty4/view",
     questions: [],
   },
   {
     id: 6,
     title: "Time and Space Complexity",
-    pdfLink: "https://drive.google.com/file/d/1Ebs4O62X3Nj4_A5tOqzDaKnvdcehQo0w?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1Ebs4O62X3Nj4_A5tOqzDaKnvdcehQo0w/view",
     questions: [],
   },
   {
     id: 7,
     title: "Arrays and Matrices",
-    pdfLink: "https://drive.google.com/file/d/1xMYFeRcmh11cfOYneL_vyrg1EqLqLE-i?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1xMYFeRcmh11cfOYneL_vyrg1EqLqLE-i/view",
     questions: [
       { id: "p7_q1", name: "Find the Winner of the Circular Game", url: "https://leetcode.com/problems/find-the-winner-of-the-circular-game/description/" },
       { id: "p7_q2", name: "Reverse String", url: "https://leetcode.com/problems/reverse-string/description/" },
@@ -93,7 +93,7 @@ const PARTS_DATA = [
   {
     id: 8,
     title: "Sorting Part 1",
-    pdfLink: "https://drive.google.com/file/d/173R3tXGcd03fUz0BfrlcYVR8N2tQ-i5P?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/173R3tXGcd03fUz0BfrlcYVR8N2tQ-i5P/view",
     questions: [
       { id: "p8_q1", name: "Relative Sort Array", url: "https://leetcode.com/problems/relative-sort-array/" },
       { id: "p8_q2", name: "Bubble Sort", url: "https://www.hackerrank.com/challenges/ctci-bubble-sort/problem" },
@@ -110,7 +110,7 @@ const PARTS_DATA = [
   {
     id: 9,
     title: "Two Pointers",
-    pdfLink: "https://drive.google.com/file/d/1g-wStmKW91g0aILXjUGGm_BEMNvOvGUS?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1g-wStmKW91g0aILXjUGGm_BEMNvOvGUS/view",
     questions: [
       { id: "p9_q1", name: "Divide Players into Teams of Equal Skill", url: "https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/" },
       { id: "p9_q2", name: "Boats to Save People", url: "https://leetcode.com/problems/boats-to-save-people/" },
@@ -126,7 +126,7 @@ const PARTS_DATA = [
   {
     id: 10,
     title: "Sliding Window",
-    pdfLink: "https://drive.google.com/file/d/14acP7DxQ54dwcsLMogzbmYGDydd0IUuS?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/14acP7DxQ54dwcsLMogzbmYGDydd0IUuS/view",
     questions: [
       { id: "p10_q1", name: "Minimum Size Subarray Sum", url: "https://leetcode.com/problems/minimum-size-subarray-sum/" },
       { id: "p10_q2", name: "Longest Repeating Character Replacement", url: "https://leetcode.com/problems/longest-repeating-character-replacement/" },
@@ -143,7 +143,7 @@ const PARTS_DATA = [
   {
     id: 11,
     title: "Prefix Sum",
-    pdfLink: "https://drive.google.com/file/d/1C2LWTdp4Ni8oD3WzP7bP-jNdOV7InBji?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1C2LWTdp4Ni8oD3WzP7bP-jNdOV7InBji/view",
     questions: [
       { id: "p11_q1", name: "Array Manipulation", url: "https://www.hackerrank.com/challenges/crush/problem" },
       { id: "p11_q2", name: "Range Sum Query 2D - Immutable", url: "https://leetcode.com/problems/range-sum-query-2d-immutable/" },
@@ -157,13 +157,13 @@ const PARTS_DATA = [
   {
     id: 12,
     title: "Linked List I",
-    pdfLink: "https://drive.google.com/file/d/1opS1LD3YL-z_bHOlo4z2UECziMZ9PTay?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1opS1LD3YL-z_bHOlo4z2UECziMZ9PTay/view",
     questions: [],
   },
   {
     id: 13,
     title: "Linked List II",
-    pdfLink: "https://drive.google.com/file/d/1k0GC6wfI1anE5-ca2f9_QR7SiqEeqjJ-?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1k0GC6wfI1anE5-ca2f9_QR7SiqEeqjJ-/view",
     questions: [
       { id: "p13_q1", name: "Reverse Linked List", url: "https://leetcode.com/problems/reverse-linked-list/description/" },
       { id: "p13_q2", name: "Palindrome Linked List", url: "https://leetcode.com/problems/palindrome-linked-list/" },
@@ -178,7 +178,7 @@ const PARTS_DATA = [
   {
     id: 14,
     title: "Stacks, Queues and Monotonicity",
-    pdfLink: "https://drive.google.com/file/d/1pVCyW_b-bFdff-put7mPnvSpzhwloYXw?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1pVCyW_b-bFdff-put7mPnvSpzhwloYXw/view",
     questions: [
       { id: "p14_q1", name: "Valid Parentheses", url: "https://leetcode.com/problems/valid-parentheses/" },
       { id: "p14_q2", name: "Simplify Path", url: "https://leetcode.com/problems/simplify-path/" },
@@ -200,7 +200,7 @@ const PARTS_DATA = [
   {
     id: 15,
     title: "Greedy",
-    pdfLink: "https://drive.google.com/file/d/12Y2nwVugh-sZ462n3eUSHvVE5k_lNtT3?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/12Y2nwVugh-sZ462n3eUSHvVE5k_lNtT3/view",
     questions: [
       { id: "p15_q1", name: "Lemonade Change", url: "https://leetcode.com/problems/lemonade-change/" },
       { id: "p15_q2", name: "Minimum Number of Arrows to Burst Balloons", url: "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/" },
@@ -213,7 +213,7 @@ const PARTS_DATA = [
   {
     id: 16,
     title: "Recursion I",
-    pdfLink: "https://drive.google.com/file/d/16WfLF0XLZYSiYEdAn4MgpAbkCEd31lGR?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/16WfLF0XLZYSiYEdAn4MgpAbkCEd31lGR/view",
     questions: [
       { id: "p16_q1", name: "Reverse String", url: "https://leetcode.com/problems/reverse-string/" },
       { id: "p16_q2", name: "Count Good Numbers", url: "https://leetcode.com/problems/count-good-numbers/" },
@@ -228,13 +228,13 @@ const PARTS_DATA = [
   {
     id: 17,
     title: "Trees I",
-    pdfLink: "https://drive.google.com/file/d/1RpwnxMfyw5KEFW4wS1cBanbTlnzAM312?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1RpwnxMfyw5KEFW4wS1cBanbTlnzAM312/view",
     questions: [],
   },
   {
     id: 18,
     title: "Trees II",
-    pdfLink: "https://drive.google.com/file/d/1wrChihW7AtqSGHfgXJ6vwAr2r8gA8WuT?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1wrChihW7AtqSGHfgXJ6vwAr2r8gA8WuT/view",
     questions: [
       { id: "p18_q1", name: "Merge Two Binary Trees", url: "https://leetcode.com/problems/merge-two-binary-trees/" },
       { id: "p18_q2", name: "Search in Binary Search Tree", url: "https://leetcode.com/problems/search-in-a-binary-search-tree/description/" },
@@ -250,7 +250,7 @@ const PARTS_DATA = [
   {
     id: 19,
     title: "Recursion II",
-    pdfLink: "https://drive.google.com/file/d/16wXd1IS8YrojCacPi3DYwdAucxabCDB6?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/16wXd1IS8YrojCacPi3DYwdAucxabCDB6/view",
     questions: [
       { id: "p19_q1", name: "Combinations", url: "https://leetcode.com/problems/combinations/" },
       { id: "p19_q2", name: "Permutations", url: "https://leetcode.com/problems/permutations/" },
@@ -271,7 +271,7 @@ const PARTS_DATA = [
   {
     id: 20,
     title: "Binary Search",
-    pdfLink: "https://drive.google.com/file/d/19Xc3VXwUtNLUgBiwb1f47UCpoPQAcn3O?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/19Xc3VXwUtNLUgBiwb1f47UCpoPQAcn3O/view",
     questions: [
       { id: "p20_q1", name: "Find Minimum in Rotated Sorted Array", url: "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/" },
       { id: "p20_q2", name: "H-Index II", url: "https://leetcode.com/problems/h-index-ii/description/" },
@@ -288,7 +288,7 @@ const PARTS_DATA = [
   {
     id: 21,
     title: "Sorting II",
-    pdfLink: "https://drive.google.com/file/d/1e6Ay3p69zvARIzMC35FcsLB67J0-deeV?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1e6Ay3p69zvARIzMC35FcsLB67J0-deeV/view",
     questions: [
       { id: "p21_q1", name: "Sort List", url: "https://leetcode.com/problems/sort-list/description/" },
       { id: "p21_q2", name: "Masha and Beautiful Tree", url: "https://codeforces.com/problemset/problem/1741/D" },
@@ -300,7 +300,7 @@ const PARTS_DATA = [
   {
     id: 22,
     title: "Sorting II - Part II",
-    pdfLink: "https://drive.google.com/file/d/1_JhIc4VMgAcVOSGQwkjEjo8-WriEpr9j?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1_JhIc4VMgAcVOSGQwkjEjo8-WriEpr9j/view",
     questions: [
       { id: "p22_q1", name: "Missing Number", url: "https://leetcode.com/problems/missing-number/description/" },
       { id: "p22_q2", name: "Find All Numbers Disappeared in an Array", url: "https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/" },
@@ -314,7 +314,7 @@ const PARTS_DATA = [
   {
     id: 23,
     title: "Graph",
-    pdfLink: "https://drive.google.com/file/d/1mVUWSWkdjuAZo4S0fAeZ6VY-fsOSQnn3?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1mVUWSWkdjuAZo4S0fAeZ6VY-fsOSQnn3/view",
     questions: [
       { id: "p23_q1", name: "Operations on Graph", url: "https://www.eolymp.com/en/problems/2472" },
       { id: "p23_q2", name: "Cities and Roads", url: "https://www.eolymp.com/en/problems/992" },
@@ -328,7 +328,7 @@ const PARTS_DATA = [
   {
     id: 24,
     title: "DFS",
-    pdfLink: "https://drive.google.com/file/d/1YNlzTqDELfrlfWoWjZ_7ke58ZQaYLvVS?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1YNlzTqDELfrlfWoWjZ_7ke58ZQaYLvVS/view",
     questions: [
       { id: "p24_q1", name: "Employee Importance", url: "https://leetcode.com/problems/employee-importance/" },
       { id: "p24_q2", name: "Number of Provinces", url: "https://leetcode.com/problems/number-of-provinces/" },
@@ -346,7 +346,7 @@ const PARTS_DATA = [
   {
     id: 25,
     title: "BFS",
-    pdfLink: "https://drive.google.com/file/d/1hun7aOFzaOqP0P-4sYNwkiNmsawYP85W?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1hun7aOFzaOqP0P-4sYNwkiNmsawYP85W/view",
     questions: [
       { id: "p25_q1", name: "Shortest Path in Binary Matrix", url: "https://leetcode.com/problems/shortest-path-in-binary-matrix/description/" },
       { id: "p25_q2", name: "Keys and Rooms", url: "https://leetcode.com/problems/keys-and-rooms/" },
@@ -366,7 +366,7 @@ const PARTS_DATA = [
   {
     id: 26,
     title: "Topological Sort",
-    pdfLink: "https://drive.google.com/file/d/1tdOFPkE2-LrmWFWqRFjS5FT2hDp1I3El?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1tdOFPkE2-LrmWFWqRFjS5FT2hDp1I3El/view",
     questions: [
       { id: "p26_q1", name: "Course Schedule II", url: "https://leetcode.com/problems/course-schedule-ii/" },
       { id: "p26_q2", name: "All Ancestors of a Node in a Directed Acyclic Graph", url: "https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/" },
@@ -384,7 +384,7 @@ const PARTS_DATA = [
   {
     id: 27,
     title: "Heap",
-    pdfLink: "https://drive.google.com/file/d/1jWNdoZB1LBfkWFAIsZxAr9tigKocPd7j?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1jWNdoZB1LBfkWFAIsZxAr9tigKocPd7j/view",
     questions: [
       { id: "p27_q1", name: "Last Stone Weight", url: "https://leetcode.com/problems/last-stone-weight/" },
       { id: "p27_q2", name: "Kth Largest Element in a Stream", url: "https://leetcode.com/problems/kth-largest-element-in-a-stream/" },
@@ -405,7 +405,7 @@ const PARTS_DATA = [
   {
     id: 28,
     title: "Union Find",
-    pdfLink: "https://drive.google.com/file/d/1f84HBpqVVEfzcbLbB3KCYRLqqWd1Qo-n?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1f84HBpqVVEfzcbLbB3KCYRLqqWd1Qo-n/view",
     questions: [
       { id: "p28_q1", name: "Check if There is a Valid Path in a Grid", url: "https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/" },
       { id: "p28_q2", name: "Redundant Connection", url: "https://leetcode.com/problems/redundant-connection/" },
@@ -421,7 +421,7 @@ const PARTS_DATA = [
   {
     id: 29,
     title: "Top-Down DP",
-    pdfLink: "https://drive.google.com/file/d/1bFy4OdUHf5xD6c5zsTLlGC234NqkrWxC?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1bFy4OdUHf5xD6c5zsTLlGC234NqkrWxC/view",
     questions: [
       { id: "p29_q1", name: "N-th Tribonacci Number", url: "https://leetcode.com/problems/n-th-tribonacci-number/description/" },
       { id: "p29_q2", name: "Coin Change", url: "https://leetcode.com/problems/coin-change/" },
@@ -436,7 +436,7 @@ const PARTS_DATA = [
   {
     id: 30,
     title: "Top-Down DP (Advanced)",
-    pdfLink: "https://drive.google.com/file/d/1qJr3VrU6atOS6lvH4t6T9Y79_YMYjgWq?usp=sharing",
+    pdfLink: "https://drive.google.com/file/d/1qJr3VrU6atOS6lvH4t6T9Y79_YMYjgWq/view",
     questions: [
       { id: "p30_q1", name: "N-th Tribonacci Number", url: "https://leetcode.com/problems/n-th-tribonacci-number/description/" },
       { id: "p30_q2", name: "Coin Change", url: "https://leetcode.com/problems/coin-change/" },
